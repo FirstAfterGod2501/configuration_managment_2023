@@ -1,0 +1,34 @@
+check_comment() {
+    file=$1
+    extension="${file##*.}"
+    
+    if [[ "$extension" == "c" ]]
+    then
+        first_line=$(head -n 1 "$file")
+        if [[ "$first_line" =~ ^([[:space:]]*)//.*$ ]]; then
+            echo "Комментарий найден в первой строке файла $file."
+        else
+            echo "Комментарий не найден в первой строке файла $file."
+        fi
+    elif [[ "$extension" == "js" ]]
+    then
+        first_line=$(head -n 1 "$file")
+        if [[ "$first_line" =~ ^([[:space:]]*)//.*$ ]]; then
+            echo "Комментарий найден в первой строке файла $file."
+        else
+            echo "Комментарий не найден в первой строке файла $file."
+        fi
+    elif [[ "$extension" == "py" ]]
+    then
+        first_line=$(head -n 1 "$file")
+        if [[ "$first_line" =~ ^([[:space:]]*)#.*$ ]]; then
+            echo "Комментарий найден в первой строке файла $file."
+        else
+            echo "Комментарий не найден в первой строке файла $file."
+        fi
+    fi
+}
+
+for file in *.c *.js *.py; do
+    check_comment "$file"
+done

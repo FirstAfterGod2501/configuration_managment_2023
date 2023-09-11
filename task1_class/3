@@ -1,0 +1,7 @@
+text=$1
+length=${#text}
+border=$(printf '%0.s-' $(seq 1 $((length+2))))
+
+echo "+$border+"
+echo "| $text |"
+echo "+$border+"

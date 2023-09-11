@@ -1,0 +1,31 @@
+import os
+import shutil
+import sys
+
+def register_command():
+    source_path = sys.argv[1]
+    command_name = sys.argv[2]
+    print(sys.argv)
+    if not os.path.isfile(source_path):
+        print("file not found.")
+        return
+
+    if not os.access(source_path, os.X_OK):
+        print("pls chown 777.")
+        return
+
+    target_path = os.path.join("/usr/local/bin", command_name)
+
+    if os.path.exists(target_path):
+        return
+
+    try:
+        shutil.copy2(source_path, target_path)
+
+        os.chmod(target_path, 0o755)
+
+        print("command registred.")
+    except Exception as e:
+        print("wtf:", str(e))
+
+register_command()
