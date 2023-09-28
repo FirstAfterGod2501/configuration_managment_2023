@@ -9,7 +9,7 @@ cwd = "/"
 
 
 def pwd():
-    print(os.getcwd())
+    print(os.getcwd().split("_virtual")[1]+'/')
 
 
 def ls():
@@ -20,7 +20,7 @@ def ls():
 
 def cd(directory):
     try:
-        if (directory == "../" or directory == "..") and "virtual" in os.getcwd().split("/")[-1]:
+        if (directory == "../" or directory == ".." or "//" in directory) and "virtual" in os.getcwd().split("/")[-1]:
             print("you are in the root directory")
             return
         os.chdir(directory)

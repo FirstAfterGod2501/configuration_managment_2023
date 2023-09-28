@@ -1,0 +1,14 @@
+# Target labels
+ libarchive-populate
+# Source files and their labels
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/CMakeFiles/libarchive-populate
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/CMakeFiles/libarchive-populate.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/CMakeFiles/libarchive-populate-complete.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-build.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-configure.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-download.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-install.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-mkdir.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-patch.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-test.rule
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/libarchive-populate-prefix/src/libarchive-populate-stamp/libarchive-populate-update.rule

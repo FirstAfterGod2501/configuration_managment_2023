@@ -1,0 +1,2117 @@
+Determining if files sys/types.h;acl/libacl.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12843/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12843.dir/build.make CMakeFiles/cmTC_12843.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12843.dir/HAVE_ACL_LIBACL_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_12843.dir/HAVE_ACL_LIBACL_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_ACL_LIBACL_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_ACL_LIBACL_H.c:3:10: fatal error: acl/libacl.h: No such file or directory
+    3 | #include <acl/libacl.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_12843.dir/build.make:78: CMakeFiles/cmTC_12843.dir/HAVE_ACL_LIBACL_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_12843/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <acl/libacl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;attr/xattr.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc913/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc913.dir/build.make CMakeFiles/cmTC_dc913.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc913.dir/HAVE_ATTR_XATTR_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_dc913.dir/HAVE_ATTR_XATTR_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_ATTR_XATTR_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_ATTR_XATTR_H.c:3:10: fatal error: attr/xattr.h: No such file or directory
+    3 | #include <attr/xattr.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_dc913.dir/build.make:78: CMakeFiles/cmTC_dc913.dir/HAVE_ATTR_XATTR_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dc913/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <attr/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;copyfile.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f145/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f145.dir/build.make CMakeFiles/cmTC_1f145.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f145.dir/HAVE_COPYFILE_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_1f145.dir/HAVE_COPYFILE_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_COPYFILE_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_COPYFILE_H.c:4:10: fatal error: copyfile.h: No such file or directory
+    4 | #include <copyfile.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1f145.dir/build.make:78: CMakeFiles/cmTC_1f145.dir/HAVE_COPYFILE_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1f145/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <copyfile.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;direct.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fb2a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fb2a.dir/build.make CMakeFiles/cmTC_4fb2a.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fb2a.dir/HAVE_DIRECT_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_4fb2a.dir/HAVE_DIRECT_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_DIRECT_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_DIRECT_H.c:4:10: fatal error: direct.h: No such file or directory
+    4 | #include <direct.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_4fb2a.dir/build.make:78: CMakeFiles/cmTC_4fb2a.dir/HAVE_DIRECT_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4fb2a/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <direct.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;ext2fs/ext2_fs.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_835ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_835ac.dir/build.make CMakeFiles/cmTC_835ac.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_835ac.dir/HAVE_EXT2FS_EXT2_FS_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_835ac.dir/HAVE_EXT2FS_EXT2_FS_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_EXT2FS_EXT2_FS_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_EXT2FS_EXT2_FS_H.c:6:10: fatal error: ext2fs/ext2_fs.h: No such file or directory
+    6 | #include <ext2fs/ext2_fs.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_835ac.dir/build.make:78: CMakeFiles/cmTC_835ac.dir/HAVE_EXT2FS_EXT2_FS_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_835ac/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <ext2fs/ext2_fs.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_WORKING_EXT2_IOC_GETFLAGS failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bef40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bef40.dir/build.make CMakeFiles/cmTC_bef40.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bef40.dir/src.c.o
+/usr/bin/cc -DHAVE_WORKING_EXT2_IOC_GETFLAGS  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_bef40.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: ext2fs/ext2_fs.h: No such file or directory
+    2 | #include <ext2fs/ext2_fs.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_bef40.dir/build.make:78: CMakeFiles/cmTC_bef40.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_bef40/fast] Error 2
+
+
+Source file was:
+#include <sys/ioctl.h>
+#include <ext2fs/ext2_fs.h>
+int main(void) { return EXT2_IOC_GETFLAGS; }
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;io.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3429/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3429.dir/build.make CMakeFiles/cmTC_e3429.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3429.dir/HAVE_IO_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_e3429.dir/HAVE_IO_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c:9:10: fatal error: io.h: No such file or directory
+    9 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e3429.dir/build.make:78: CMakeFiles/cmTC_e3429.dir/HAVE_IO_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e3429/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;membership.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_556d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_556d8.dir/build.make CMakeFiles/cmTC_556d8.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_556d8.dir/HAVE_MEMBERSHIP_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_556d8.dir/HAVE_MEMBERSHIP_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_MEMBERSHIP_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_MEMBERSHIP_H.c:16:10: fatal error: membership.h: No such file or directory
+   16 | #include <membership.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_556d8.dir/build.make:78: CMakeFiles/cmTC_556d8.dir/HAVE_MEMBERSHIP_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_556d8/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <membership.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;process.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b055/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b055.dir/build.make CMakeFiles/cmTC_9b055.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b055.dir/HAVE_PROCESS_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_9b055.dir/HAVE_PROCESS_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_PROCESS_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_PROCESS_H.c:19:10: fatal error: process.h: No such file or directory
+   19 | #include <process.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9b055.dir/build.make:78: CMakeFiles/cmTC_9b055.dir/HAVE_PROCESS_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9b055/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <process.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;readpassphrase.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c22a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c22a.dir/build.make CMakeFiles/cmTC_9c22a.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c22a.dir/HAVE_READPASSPHRASE_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_9c22a.dir/HAVE_READPASSPHRASE_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_READPASSPHRASE_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_READPASSPHRASE_H.c:21:10: fatal error: readpassphrase.h: No such file or directory
+   21 | #include <readpassphrase.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9c22a.dir/build.make:78: CMakeFiles/cmTC_9c22a.dir/HAVE_READPASSPHRASE_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9c22a/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <readpassphrase.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/acl.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ee65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ee65.dir/build.make CMakeFiles/cmTC_9ee65.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ee65.dir/HAVE_SYS_ACL_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_9ee65.dir/HAVE_SYS_ACL_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ACL_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_ACL_H.c:29:10: fatal error: sys/acl.h: No such file or directory
+   29 | #include <sys/acl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9ee65.dir/build.make:78: CMakeFiles/cmTC_9ee65.dir/HAVE_SYS_ACL_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9ee65/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/acl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/extattr.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae25c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae25c.dir/build.make CMakeFiles/cmTC_ae25c.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae25c.dir/HAVE_SYS_EXTATTR_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_ae25c.dir/HAVE_SYS_EXTATTR_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EXTATTR_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EXTATTR_H.c:30:10: fatal error: sys/extattr.h: No such file or directory
+   30 | #include <sys/extattr.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ae25c.dir/build.make:78: CMakeFiles/cmTC_ae25c.dir/HAVE_SYS_EXTATTR_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ae25c/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/extattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/mkdev.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc586/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc586.dir/build.make CMakeFiles/cmTC_dc586.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc586.dir/HAVE_SYS_MKDEV_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_dc586.dir/HAVE_SYS_MKDEV_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MKDEV_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MKDEV_H.c:31:10: fatal error: sys/mkdev.h: No such file or directory
+   31 | #include <sys/mkdev.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_dc586.dir/build.make:78: CMakeFiles/cmTC_dc586.dir/HAVE_SYS_MKDEV_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dc586/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/mkdev.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/mount.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_661da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_661da.dir/build.make CMakeFiles/cmTC_661da.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_661da.dir/HAVE_SYS_MOUNT_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_661da.dir/HAVE_SYS_MOUNT_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MOUNT_H.c
+In file included from /usr/include/linux/fs.h:19,
+                 from /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MOUNT_H.c:13:
+/usr/include/x86_64-linux-gnu/sys/mount.h:35:3: error: expected identifier before numeric constant
+   35 |   MS_RDONLY = 1,                /* Mount read-only.  */
+      |   ^~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_661da.dir/build.make:78: CMakeFiles/cmTC_661da.dir/HAVE_SYS_MOUNT_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_661da/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/mount.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/richacl.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_017b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_017b5.dir/build.make CMakeFiles/cmTC_017b5.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_017b5.dir/HAVE_SYS_RICHACL_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_017b5.dir/HAVE_SYS_RICHACL_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RICHACL_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RICHACL_H.c:33:10: fatal error: sys/richacl.h: No such file or directory
+   33 | #include <sys/richacl.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_017b5.dir/build.make:78: CMakeFiles/cmTC_017b5.dir/HAVE_SYS_RICHACL_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_017b5/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/richacl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utime.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75778/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75778.dir/build.make CMakeFiles/cmTC_75778.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75778.dir/HAVE_SYS_UTIME_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_75778.dir/HAVE_SYS_UTIME_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c:39:10: fatal error: sys/utime.h: No such file or directory
+   39 | #include <sys/utime.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_75778.dir/build.make:78: CMakeFiles/cmTC_75778.dir/HAVE_SYS_UTIME_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_75778/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utime.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utsname.h;sys/vfs.h;sys/wait.h;sys/xattr.h;time.h;unistd.h;utime.h;wchar.h;wctype.h;windows.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f9880/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9880.dir/build.make CMakeFiles/cmTC_f9880.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9880.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_f9880.dir/HAVE_WINDOWS_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:48:10: fatal error: windows.h: No such file or directory
+   48 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f9880.dir/build.make:78: CMakeFiles/cmTC_f9880.dir/HAVE_WINDOWS_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f9880/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utsname.h>
+#include <sys/vfs.h>
+#include <sys/wait.h>
+#include <sys/xattr.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <wchar.h>
+#include <wctype.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utsname.h;sys/vfs.h;sys/wait.h;sys/xattr.h;time.h;unistd.h;utime.h;wchar.h;wctype.h;Bcrypt.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab052/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab052.dir/build.make CMakeFiles/cmTC_ab052.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab052.dir/HAVE_BCRYPT_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_ab052.dir/HAVE_BCRYPT_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_BCRYPT_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_BCRYPT_H.c:48:10: fatal error: Bcrypt.h: No such file or directory
+   48 | #include <Bcrypt.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ab052.dir/build.make:78: CMakeFiles/cmTC_ab052.dir/HAVE_BCRYPT_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ab052/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utsname.h>
+#include <sys/vfs.h>
+#include <sys/wait.h>
+#include <sys/xattr.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <wchar.h>
+#include <wctype.h>
+#include <Bcrypt.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utsname.h;sys/vfs.h;sys/wait.h;sys/xattr.h;time.h;unistd.h;utime.h;wchar.h;wctype.h;wincrypt.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c7612/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c7612.dir/build.make CMakeFiles/cmTC_c7612.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7612.dir/HAVE_WINCRYPT_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_c7612.dir/HAVE_WINCRYPT_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_WINCRYPT_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_WINCRYPT_H.c:48:10: fatal error: wincrypt.h: No such file or directory
+   48 | #include <wincrypt.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c7612.dir/build.make:78: CMakeFiles/cmTC_c7612.dir/HAVE_WINCRYPT_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c7612/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utsname.h>
+#include <sys/vfs.h>
+#include <sys/wait.h>
+#include <sys/xattr.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <wchar.h>
+#include <wctype.h>
+#include <wincrypt.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;dlfcn.h;errno.h;fcntl.h;grp.h;inttypes.h;langinfo.h;limits.h;linux/types.h;linux/fiemap.h;linux/fs.h;linux/magic.h;locale.h;memory.h;paths.h;poll.h;pthread.h;pwd.h;regex.h;signal.h;spawn.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/cdefs.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/select.h;sys/stat.h;sys/statfs.h;sys/statvfs.h;sys/sysmacros.h;sys/time.h;sys/utsname.h;sys/vfs.h;sys/wait.h;sys/xattr.h;time.h;unistd.h;utime.h;wchar.h;wctype.h;winioctl.h exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17d4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17d4e.dir/build.make CMakeFiles/cmTC_17d4e.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17d4e.dir/HAVE_WINIOCTL_H.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_17d4e.dir/HAVE_WINIOCTL_H.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_WINIOCTL_H.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckIncludeFiles/HAVE_WINIOCTL_H.c:48:10: fatal error: winioctl.h: No such file or directory
+   48 | #include <winioctl.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_17d4e.dir/build.make:78: CMakeFiles/cmTC_17d4e.dir/HAVE_WINIOCTL_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_17d4e/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <dlfcn.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <inttypes.h>
+#include <langinfo.h>
+#include <limits.h>
+#include <linux/types.h>
+#include <linux/fiemap.h>
+#include <linux/fs.h>
+#include <linux/magic.h>
+#include <locale.h>
+#include <memory.h>
+#include <paths.h>
+#include <poll.h>
+#include <pthread.h>
+#include <pwd.h>
+#include <regex.h>
+#include <signal.h>
+#include <spawn.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/cdefs.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/statfs.h>
+#include <sys/statvfs.h>
+#include <sys/sysmacros.h>
+#include <sys/time.h>
+#include <sys/utsname.h>
+#include <sys/vfs.h>
+#include <sys/wait.h>
+#include <sys/xattr.h>
+#include <time.h>
+#include <unistd.h>
+#include <utime.h>
+#include <wchar.h>
+#include <wctype.h>
+#include <winioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if the function MD5Init exists in the md failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36e24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36e24.dir/build.make CMakeFiles/cmTC_36e24.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36e24.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=MD5Init -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_36e24.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36e24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36e24.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=MD5Init -Wall -Wformat -Wformat-security -rdynamic CMakeFiles/cmTC_36e24.dir/CheckFunctionExists.c.o -o cmTC_36e24  -lmd 
+/usr/bin/ld: cannot find -lmd: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_36e24.dir/build.make:99: cmTC_36e24] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_36e24/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_ICONV_libc_const failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74cd1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74cd1.dir/build.make CMakeFiles/cmTC_74cd1.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74cd1.dir/src.c.o
+/usr/bin/cc -DHAVE_ICONV_libc_const  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -Werror -o CMakeFiles/cmTC_74cd1.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:6:21: error: passing argument 2 of ‘iconv’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+    6 |           iconv(cd, &ccp, (size_t *)0, (char **)0, (size_t *)0);
+      |                     ^~~~
+      |                     |
+      |                     const char **
+In file included from /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:2:
+/usr/include/iconv.h:42:54: note: expected ‘char ** restrict’ but argument is of type ‘const char **’
+   42 | extern size_t iconv (iconv_t __cd, char **__restrict __inbuf,
+      |                                    ~~~~~~~~~~~~~~~~~~^~~~~~~
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_74cd1.dir/build.make:78: CMakeFiles/cmTC_74cd1.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_74cd1/fast] Error 2
+
+
+Source file was:
+#include <stdlib.h>
+       #include <iconv.h>
+       int main() {
+          const char *ccp;
+          iconv_t cd = iconv_open("", "");
+          iconv(cd, &ccp, (size_t *)0, (char **)0, (size_t *)0);
+          iconv_close(cd);
+          return 0;
+       }
+Determining if the _CrtSetReportMode exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c4e6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c4e6.dir/build.make CMakeFiles/cmTC_9c4e6.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c4e6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_9c4e6.dir/CheckSymbolExists.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: crtdbg.h: No such file or directory
+    2 | #include <crtdbg.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9c4e6.dir/build.make:78: CMakeFiles/cmTC_9c4e6.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9c4e6/fast] Error 2
+
+
+File /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <crtdbg.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _CrtSetReportMode
+  return ((int*)(&_CrtSetReportMode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function arc4random_buf exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0ded4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ded4.dir/build.make CMakeFiles/cmTC_0ded4.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ded4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=arc4random_buf -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_0ded4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ded4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ded4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=arc4random_buf -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_0ded4.dir/CheckFunctionExists.c.o -o cmTC_0ded4 
+/usr/bin/ld: CMakeFiles/cmTC_0ded4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `arc4random_buf'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0ded4.dir/build.make:99: cmTC_0ded4] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0ded4/fast] Error 2
+
+
+
+Determining if the function getvfsbyname exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fe87/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fe87.dir/build.make CMakeFiles/cmTC_8fe87.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fe87.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=getvfsbyname -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_8fe87.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8fe87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fe87.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=getvfsbyname -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_8fe87.dir/CheckFunctionExists.c.o -o cmTC_8fe87 
+/usr/bin/ld: CMakeFiles/cmTC_8fe87.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `getvfsbyname'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8fe87.dir/build.make:99: cmTC_8fe87] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8fe87/fast] Error 2
+
+
+
+Determining if the function lchflags exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07d6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07d6c.dir/build.make CMakeFiles/cmTC_07d6c.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07d6c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=lchflags -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_07d6c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_07d6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d6c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=lchflags -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_07d6c.dir/CheckFunctionExists.c.o -o cmTC_07d6c 
+/usr/bin/ld: CMakeFiles/cmTC_07d6c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `lchflags'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_07d6c.dir/build.make:99: cmTC_07d6c] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_07d6c/fast] Error 2
+
+
+
+Determining if the function readpassphrase exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5ae72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ae72.dir/build.make CMakeFiles/cmTC_5ae72.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ae72.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=readpassphrase -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_5ae72.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ae72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ae72.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=readpassphrase -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_5ae72.dir/CheckFunctionExists.c.o -o cmTC_5ae72 
+/usr/bin/ld: CMakeFiles/cmTC_5ae72.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `readpassphrase'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5ae72.dir/build.make:99: cmTC_5ae72] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5ae72/fast] Error 2
+
+
+
+Determining if the function strncpy_s exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3bd6d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3bd6d.dir/build.make CMakeFiles/cmTC_3bd6d.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bd6d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=strncpy_s -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_3bd6d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bd6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd6d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=strncpy_s -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_3bd6d.dir/CheckFunctionExists.c.o -o cmTC_3bd6d 
+/usr/bin/ld: CMakeFiles/cmTC_3bd6d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strncpy_s'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3bd6d.dir/build.make:99: cmTC_3bd6d] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3bd6d/fast] Error 2
+
+
+
+Determining if the function _ctime64_s exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fcaea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fcaea.dir/build.make CMakeFiles/cmTC_fcaea.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcaea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_ctime64_s -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_fcaea.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fcaea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcaea.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_ctime64_s -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_fcaea.dir/CheckFunctionExists.c.o -o cmTC_fcaea 
+/usr/bin/ld: CMakeFiles/cmTC_fcaea.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_ctime64_s'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_fcaea.dir/build.make:99: cmTC_fcaea] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_fcaea/fast] Error 2
+
+
+
+Determining if the function _fseeki64 exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd834/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd834.dir/build.make CMakeFiles/cmTC_cd834.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd834.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_fseeki64 -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_cd834.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd834
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd834.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_fseeki64 -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_cd834.dir/CheckFunctionExists.c.o -o cmTC_cd834 
+/usr/bin/ld: CMakeFiles/cmTC_cd834.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_fseeki64'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_cd834.dir/build.make:99: cmTC_cd834] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cd834/fast] Error 2
+
+
+
+Determining if the function _get_timezone exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86adf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86adf.dir/build.make CMakeFiles/cmTC_86adf.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86adf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_get_timezone -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_86adf.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_86adf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86adf.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_get_timezone -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_86adf.dir/CheckFunctionExists.c.o -o cmTC_86adf 
+/usr/bin/ld: CMakeFiles/cmTC_86adf.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_get_timezone'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_86adf.dir/build.make:99: cmTC_86adf] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_86adf/fast] Error 2
+
+
+
+Determining if the function _gmtime64_s exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8f76/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8f76.dir/build.make CMakeFiles/cmTC_b8f76.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8f76.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_gmtime64_s -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_b8f76.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8f76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8f76.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_gmtime64_s -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_b8f76.dir/CheckFunctionExists.c.o -o cmTC_b8f76 
+/usr/bin/ld: CMakeFiles/cmTC_b8f76.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_gmtime64_s'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b8f76.dir/build.make:99: cmTC_b8f76] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b8f76/fast] Error 2
+
+
+
+Determining if the function _localtime64_s exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e5b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e5b6.dir/build.make CMakeFiles/cmTC_0e5b6.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e5b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_localtime64_s -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_0e5b6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e5b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e5b6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_localtime64_s -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_0e5b6.dir/CheckFunctionExists.c.o -o cmTC_0e5b6 
+/usr/bin/ld: CMakeFiles/cmTC_0e5b6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_localtime64_s'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0e5b6.dir/build.make:99: cmTC_0e5b6] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0e5b6/fast] Error 2
+
+
+
+Determining if the function _mkgmtime64 exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2f3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2f3c.dir/build.make CMakeFiles/cmTC_c2f3c.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2f3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_mkgmtime64 -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_c2f3c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c2f3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2f3c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=_mkgmtime64 -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_c2f3c.dir/CheckFunctionExists.c.o -o cmTC_c2f3c 
+/usr/bin/ld: CMakeFiles/cmTC_c2f3c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_mkgmtime64'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c2f3c.dir/build.make:99: cmTC_c2f3c] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c2f3c/fast] Error 2
+
+
+
+Determining if the function cygwin_conv_path exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c6764/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6764.dir/build.make CMakeFiles/cmTC_c6764.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6764.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=cygwin_conv_path -Wall -Wformat -Wformat-security -fno-builtin -o CMakeFiles/cmTC_c6764.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6764.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=cygwin_conv_path -Wall -Wformat -Wformat-security -fno-builtin -rdynamic CMakeFiles/cmTC_c6764.dir/CheckFunctionExists.c.o -o cmTC_c6764 
+/usr/bin/ld: CMakeFiles/cmTC_c6764.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cygwin_conv_path'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c6764.dir/build.make:99: cmTC_c6764] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c6764/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_VFSCONF failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a9fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a9fc.dir/build.make CMakeFiles/cmTC_3a9fc.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a9fc.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_VFSCONF  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_3a9fc.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:33: error: storage size of ‘v’ isn’t known
+    3 | int main(void) { struct vfsconf v; return sizeof(v);}
+      |                                 ^
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:33: warning: unused variable ‘v’ [-Wunused-variable]
+gmake[1]: *** [CMakeFiles/cmTC_3a9fc.dir/build.make:78: CMakeFiles/cmTC_3a9fc.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3a9fc/fast] Error 2
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/mount.h>
+int main(void) { struct vfsconf v; return sizeof(v);}
+Performing C SOURCE FILE Test HAVE_STRUCT_XVFSCONF failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37ad2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37ad2.dir/build.make CMakeFiles/cmTC_37ad2.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37ad2.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_XVFSCONF  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_37ad2.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:34: error: storage size of ‘v’ isn’t known
+    3 | int main(void) { struct xvfsconf v; return sizeof(v);}
+      |                                  ^
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:34: warning: unused variable ‘v’ [-Wunused-variable]
+gmake[1]: *** [CMakeFiles/cmTC_37ad2.dir/build.make:78: CMakeFiles/cmTC_37ad2.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_37ad2/fast] Error 2
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/mount.h>
+int main(void) { struct xvfsconf v; return sizeof(v);}
+Performing C SOURCE FILE Test HAVE_STRUCT_STATFS failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89a3d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89a3d.dir/build.make CMakeFiles/cmTC_89a3d.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89a3d.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STATFS  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_89a3d.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:32: error: storage size of ‘s’ isn’t known
+    3 | int main(void) { struct statfs s; return sizeof(s);}
+      |                                ^
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:32: warning: unused variable ‘s’ [-Wunused-variable]
+gmake[1]: *** [CMakeFiles/cmTC_89a3d.dir/build.make:78: CMakeFiles/cmTC_89a3d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_89a3d/fast] Error 2
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/mount.h>
+int main(void) { struct statfs s; return sizeof(s);}
+Performing C SOURCE FILE Test MAJOR_IN_MKDEV failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a197/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a197.dir/build.make CMakeFiles/cmTC_2a197.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a197.dir/src.c.o
+/usr/bin/cc -DMAJOR_IN_MKDEV  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_2a197.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: sys/mkdev.h: No such file or directory
+    1 | #include <sys/mkdev.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2a197.dir/build.make:78: CMakeFiles/cmTC_2a197.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2a197/fast] Error 2
+
+
+Source file was:
+#include <sys/mkdev.h>
+int main() { return major(256); }
+Performing C SOURCE FILE Test HAVE_LZMA_STREAM_ENCODER_MT failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c71c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c71c4.dir/build.make CMakeFiles/cmTC_c71c4.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c71c4.dir/src.c.o
+/usr/bin/cc -DHAVE_LZMA_STREAM_ENCODER_MT  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_c71c4.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: lzma.h: No such file or directory
+    1 | #include <lzma.h>
+      |          ^~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c71c4.dir/build.make:78: CMakeFiles/cmTC_c71c4.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c71c4/fast] Error 2
+
+
+Source file was:
+#include <lzma.h>
+#if LZMA_VERSION < 50020000
+#error unsupported
+#endif
+int main(void){lzma_stream_encoder_mt(0, 0); return 0;}
+Determining if the EFTYPE exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_38511/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_38511.dir/build.make CMakeFiles/cmTC_38511.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38511.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_38511.dir/CheckSymbolExists.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘EFTYPE’ undeclared (first use in this function)
+    8 |   return ((int*)(&EFTYPE))[argc];
+      |                   ^~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_38511.dir/build.make:78: CMakeFiles/cmTC_38511.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_38511/fast] Error 2
+
+
+File /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <errno.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef EFTYPE
+  return ((int*)(&EFTYPE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the D_MD_ORDER exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3342a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3342a.dir/build.make CMakeFiles/cmTC_3342a.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3342a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_3342a.dir/CheckSymbolExists.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘D_MD_ORDER’ undeclared (first use in this function)
+    8 |   return ((int*)(&D_MD_ORDER))[argc];
+      |                   ^~~~~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_3342a.dir/build.make:78: CMakeFiles/cmTC_3342a.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3342a/fast] Error 2
+
+
+File /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <langinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef D_MD_ORDER
+  return ((int*)(&D_MD_ORDER))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_TM___TM_GMTOFF failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc0c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc0c3.dir/build.make CMakeFiles/cmTC_cc0c3.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc0c3.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_TM___TM_GMTOFF  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_cc0c3.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:6:34: error: ‘struct tm’ has no member named ‘__tm_gmtoff’; did you mean ‘tm_gmtoff’?
+    6 |   (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+      |                                  ^~~~~~~~~~~
+      |                                  tm_gmtoff
+gmake[1]: *** [CMakeFiles/cmTC_cc0c3.dir/build.make:78: CMakeFiles/cmTC_cc0c3.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cc0c3/fast] Error 2
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BIRTHTIME failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea899/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea899.dir/build.make CMakeFiles/cmTC_ea899.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea899.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_BIRTHTIME  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_ea899.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_birthtime’
+    7 |   (void)sizeof(((struct stat *)0)->st_birthtime);
+      |                                  ^~
+gmake[1]: *** [CMakeFiles/cmTC_ea899.dir/build.make:78: CMakeFiles/cmTC_ea899.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ea899/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_birthtime);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7702/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7702.dir/build.make CMakeFiles/cmTC_a7702.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7702.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_a7702.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_birthtimespec’
+    7 |   (void)sizeof(((struct stat *)0)->st_birthtimespec.tv_nsec);
+      |                                  ^~
+gmake[1]: *** [CMakeFiles/cmTC_a7702.dir/build.make:78: CMakeFiles/cmTC_a7702.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a7702/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_birthtimespec.tv_nsec);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b71e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b71e3.dir/build.make CMakeFiles/cmTC_b71e3.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b71e3.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_b71e3.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_mtimespec’
+    7 |   (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+      |                                  ^~
+gmake[1]: *** [CMakeFiles/cmTC_b71e3.dir/build.make:78: CMakeFiles/cmTC_b71e3.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b71e3/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIME_N failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d004/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d004.dir/build.make CMakeFiles/cmTC_2d004.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d004.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_MTIME_N  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_2d004.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:36: error: ‘struct stat’ has no member named ‘st_mtime_n’; did you mean ‘st_mtim’?
+    7 |   (void)sizeof(((struct stat *)0)->st_mtime_n);
+      |                                    ^~~~~~~~~~
+      |                                    st_mtim
+gmake[1]: *** [CMakeFiles/cmTC_2d004.dir/build.make:78: CMakeFiles/cmTC_2d004.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2d004/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtime_n);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_UMTIME failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b783/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b783.dir/build.make CMakeFiles/cmTC_0b783.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b783.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_UMTIME  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_0b783.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:36: error: ‘struct stat’ has no member named ‘st_umtime’; did you mean ‘st_mtim’?
+    7 |   (void)sizeof(((struct stat *)0)->st_umtime);
+      |                                    ^~~~~~~~~
+      |                                    st_mtim
+gmake[1]: *** [CMakeFiles/cmTC_0b783.dir/build.make:78: CMakeFiles/cmTC_0b783.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0b783/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_umtime);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIME_USEC failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2087/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2087.dir/build.make CMakeFiles/cmTC_b2087.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2087.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_MTIME_USEC  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_b2087.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_mtime_usec’
+    7 |   (void)sizeof(((struct stat *)0)->st_mtime_usec);
+      |                                  ^~
+gmake[1]: *** [CMakeFiles/cmTC_b2087.dir/build.make:78: CMakeFiles/cmTC_b2087.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b2087/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtime_usec);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_FLAGS failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43865/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43865.dir/build.make CMakeFiles/cmTC_43865.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43865.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_FLAGS  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_43865.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_flags’
+    7 |   (void)sizeof(((struct stat *)0)->st_flags);
+      |                                  ^~
+gmake[1]: *** [CMakeFiles/cmTC_43865.dir/build.make:78: CMakeFiles/cmTC_43865.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_43865/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_flags);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STATVFS_F_IOSIZE failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be80c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be80c.dir/build.make CMakeFiles/cmTC_be80c.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be80c.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STATVFS_F_IOSIZE  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_be80c.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:7:39: error: ‘struct statvfs’ has no member named ‘f_iosize’; did you mean ‘f_bsize’?
+    7 |   (void)sizeof(((struct statvfs *)0)->f_iosize);
+      |                                       ^~~~~~~~
+      |                                       f_bsize
+gmake[1]: *** [CMakeFiles/cmTC_be80c.dir/build.make:78: CMakeFiles/cmTC_be80c.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_be80c/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/statvfs.h>
+
+int main()
+{
+  (void)sizeof(((struct statvfs *)0)->f_iosize);
+  return 0;
+}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_51825/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51825.dir/build.make CMakeFiles/cmTC_51825.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51825.dir/__INT64.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_51825.dir/__INT64.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/__INT64.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/__INT64.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+   27 | #define SIZE (sizeof(__int64))
+      |                      ^~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/__INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_51825.dir/build.make:78: CMakeFiles/cmTC_51825.dir/__INT64.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_51825/fast] Error 2
+
+
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/__INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_abaaa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_abaaa.dir/build.make CMakeFiles/cmTC_abaaa.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abaaa.dir/UNSIGNED___INT64.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_abaaa.dir/UNSIGNED___INT64.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:30:12: note: in expansion of macro ‘SIZE’
+   30 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:31:12: note: in expansion of macro ‘SIZE’
+   31 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:32:12: note: in expansion of macro ‘SIZE’
+   32 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:33:12: note: in expansion of macro ‘SIZE’
+   33 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_abaaa.dir/build.make:78: CMakeFiles/cmTC_abaaa.dir/UNSIGNED___INT64.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_abaaa/fast] Error 2
+
+
+/home/first/cfg/task1_home/cpp/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setxattr exists in the attr failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30690/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30690.dir/build.make CMakeFiles/cmTC_30690.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30690.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=setxattr -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_30690.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30690
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30690.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=setxattr -Wall -Wformat -Wformat-security -rdynamic CMakeFiles/cmTC_30690.dir/CheckFunctionExists.c.o -o cmTC_30690  -lattr 
+/usr/bin/ld: cannot find -lattr: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_30690.dir/build.make:99: cmTC_30690] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_30690/fast] Error 2
+
+
+
+Determining if the function setxattr exists in the gnu failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76713/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76713.dir/build.make CMakeFiles/cmTC_76713.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76713.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=setxattr -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_76713.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76713.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=setxattr -Wall -Wformat -Wformat-security -rdynamic CMakeFiles/cmTC_76713.dir/CheckFunctionExists.c.o -o cmTC_76713  -lgnu 
+/usr/bin/ld: cannot find -lgnu: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_76713.dir/build.make:99: cmTC_76713] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_76713/fast] Error 2
+
+
+
+Determining if the EXTATTR_NAMESPACE_USER exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3437f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3437f.dir/build.make CMakeFiles/cmTC_3437f.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3437f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_3437f.dir/CheckSymbolExists.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: sys/extattr.h: No such file or directory
+    3 | #include <sys/extattr.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_3437f.dir/build.make:78: CMakeFiles/cmTC_3437f.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3437f/fast] Error 2
+
+
+File /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/extattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef EXTATTR_NAMESPACE_USER
+  return ((int*)(&EXTATTR_NAMESPACE_USER))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the XATTR_NOFOLLOW exist failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0eb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0eb7.dir/build.make CMakeFiles/cmTC_c0eb7.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0eb7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_c0eb7.dir/CheckSymbolExists.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘XATTR_NOFOLLOW’ undeclared (first use in this function)
+    8 |   return ((int*)(&XATTR_NOFOLLOW))[argc];
+      |                   ^~~~~~~~~~~~~~
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_c0eb7.dir/build.make:78: CMakeFiles/cmTC_c0eb7.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c0eb7/fast] Error 2
+
+
+File /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/xattr.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef XATTR_NOFOLLOW
+  return ((int*)(&XATTR_NOFOLLOW))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function acl exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e082/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e082.dir/build.make CMakeFiles/cmTC_7e082.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e082.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=acl -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_7e082.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e082
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e082.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=acl -Wall -Wformat -Wformat-security -rdynamic CMakeFiles/cmTC_7e082.dir/CheckFunctionExists.c.o -o cmTC_7e082 
+/usr/bin/ld: CMakeFiles/cmTC_7e082.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `acl'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_7e082.dir/build.make:99: cmTC_7e082] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7e082/fast] Error 2
+
+
+
+Determining if the function facl exists failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2617d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2617d.dir/build.make CMakeFiles/cmTC_2617d.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2617d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=facl -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_2617d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2617d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2617d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=facl -Wall -Wformat -Wformat-security -rdynamic CMakeFiles/cmTC_2617d.dir/CheckFunctionExists.c.o -o cmTC_2617d 
+/usr/bin/ld: CMakeFiles/cmTC_2617d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `facl'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2617d.dir/build.make:99: cmTC_2617d] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2617d/fast] Error 2
+
+
+
+Determining if the function acl_get_file exists in the acl failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58944/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58944.dir/build.make CMakeFiles/cmTC_58944.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58944.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=acl_get_file -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_58944.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58944.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=acl_get_file -Wall -Wformat -Wformat-security -rdynamic CMakeFiles/cmTC_58944.dir/CheckFunctionExists.c.o -o cmTC_58944  -lacl 
+/usr/bin/ld: cannot find -lacl: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_58944.dir/build.make:99: cmTC_58944] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_58944/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_ACL_T failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3502/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3502.dir/build.make CMakeFiles/cmTC_a3502.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3502.dir/src.c.o
+/usr/bin/cc -DHAVE_ACL_T  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_a3502.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/acl.h: No such file or directory
+    3 | #include <sys/acl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a3502.dir/build.make:78: CMakeFiles/cmTC_a3502.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a3502/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/acl.h>
+
+int main()
+{
+   static acl_t tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_ACL_ENTRY_T failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4d0e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4d0e.dir/build.make CMakeFiles/cmTC_c4d0e.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4d0e.dir/src.c.o
+/usr/bin/cc -DHAVE_ACL_ENTRY_T  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_c4d0e.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/acl.h: No such file or directory
+    3 | #include <sys/acl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c4d0e.dir/build.make:78: CMakeFiles/cmTC_c4d0e.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c4d0e/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/acl.h>
+
+int main()
+{
+   static acl_entry_t tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_ACL_PERMSET_T failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4072d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4072d.dir/build.make CMakeFiles/cmTC_4072d.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4072d.dir/src.c.o
+/usr/bin/cc -DHAVE_ACL_PERMSET_T  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_4072d.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/acl.h: No such file or directory
+    3 | #include <sys/acl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_4072d.dir/build.make:78: CMakeFiles/cmTC_4072d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4072d/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/acl.h>
+
+int main()
+{
+   static acl_permset_t tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_ACL_TAG_T failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_761fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_761fb.dir/build.make CMakeFiles/cmTC_761fb.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_761fb.dir/src.c.o
+/usr/bin/cc -DHAVE_ACL_TAG_T  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_761fb.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:3:10: fatal error: sys/acl.h: No such file or directory
+    3 | #include <sys/acl.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_761fb.dir/build.make:78: CMakeFiles/cmTC_761fb.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_761fb/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/acl.h>
+
+int main()
+{
+   static acl_tag_t tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Determining if the function richacl_get_file exists in the richacl failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb56d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb56d.dir/build.make CMakeFiles/cmTC_eb56d.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb56d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=richacl_get_file -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_eb56d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb56d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb56d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wformat -Wformat-security -DCHECK_FUNCTION_EXISTS=richacl_get_file -Wall -Wformat -Wformat-security -rdynamic CMakeFiles/cmTC_eb56d.dir/CheckFunctionExists.c.o -o cmTC_eb56d  -lrichacl 
+/usr/bin/ld: cannot find -lrichacl: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_eb56d.dir/build.make:99: cmTC_eb56d] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_eb56d/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_RICHACE failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6f34/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6f34.dir/build.make CMakeFiles/cmTC_f6f34.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6f34.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_RICHACE  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_f6f34.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: sys/richacl.h: No such file or directory
+    2 | #include <sys/richacl.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f6f34.dir/build.make:78: CMakeFiles/cmTC_f6f34.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f6f34/fast] Error 2
+
+
+Source file was:
+
+#include <sys/richacl.h>
+
+int main()
+{
+  (void)sizeof(((struct richace *)0)->e_type);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_RICHACL failed with the following output:
+Change Dir: /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_45c90/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_45c90.dir/build.make CMakeFiles/cmTC_45c90.dir/build
+gmake[1]: Entering directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45c90.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_RICHACL  -Wall -Wformat -Wformat-security -Wall -Wformat -Wformat-security -o CMakeFiles/cmTC_45c90.dir/src.c.o -c /home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c
+/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: sys/richacl.h: No such file or directory
+    2 | #include <sys/richacl.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_45c90.dir/build.make:78: CMakeFiles/cmTC_45c90.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/first/cfg/task1_home/cpp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_45c90/fast] Error 2
+
+
+Source file was:
+
+#include <sys/richacl.h>
+
+int main()
+{
+  (void)sizeof(((struct richacl *)0)->a_flags);
+  return 0;
+}
+

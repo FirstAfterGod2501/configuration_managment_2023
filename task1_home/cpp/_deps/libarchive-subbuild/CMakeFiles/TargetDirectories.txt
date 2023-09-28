@@ -1,0 +1,3 @@
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/CMakeFiles/libarchive-populate.dir
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/CMakeFiles/edit_cache.dir
+/home/first/cfg/task1_home/cpp/_deps/libarchive-subbuild/CMakeFiles/rebuild_cache.dir
