@@ -1,0 +1,22 @@
+[
+    "service",
+    [
+        [
+            "compileOptions",
+            "-O3 -std=c++20"
+        ],
+        [
+            [
+                "compiler",
+                "gcc"
+            ],
+            [
+                "add",
+                [
+                    "source",
+                    "main.cpp"
+                ]
+            ]
+        ]
+    ]
+]
